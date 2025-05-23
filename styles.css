@@ -1,10 +1,53 @@
-body{
-    margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.proflie_photo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+
+.card {
+  max-width: 420px;
+  background-color: #ffffff;
+  color: #1e2a38;
+  border-left: 6px solid #f9c232; /* Chun-Li gold */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile_photo {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #1976d2; /* Chun-Li blue */
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.card h4 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #607d8b;
 }
